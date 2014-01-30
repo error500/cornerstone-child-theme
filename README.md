@@ -1,10 +1,12 @@
-# Example Child theme for the Cornerstone starter theme
-
-This is an example Child Theme for the Cornerstone starter theme. It includes a few basic CSS rules specific to WordPress to get you started. The Cornerstone parent theme purposely doesn't include any CSS in the CSS stylesheet so that you don't have to clutter your child theme having to reverse those CSS rules to design how you want.
+# Example Child theme for the error500-Cornerstone starter theme
 
 ## Download
 
-Clone the git repo `https://github.com/thewirelessguy/cornerstone-child-theme.git` or [download the archive](https://github.com/thewirelessguy/cornerstone-child-theme/archive/master.zip). 
+Clone the git repo `https://github.com/error500/cornerstone-child-theme.git` 
+
+Start compass watch
+
+`compass watch`
 
 ## Author
 
@@ -13,3 +15,6 @@ Clone the git repo `https://github.com/thewirelessguy/cornerstone-child-theme.gi
 Stephen is a web designer and Android app developer based in Preston, UK
 + [Twitter @wirelessguyuk](http://twitter.com/wirelessguyuk)
 + [Website](http://thewirelessguy.co.uk)
+
+Forked by Error500
+See readme in parent Fork `https://github.com/error500/cornerstone/blob/master/README.md`
