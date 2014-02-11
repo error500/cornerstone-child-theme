@@ -1,0 +1,30 @@
+{
+    "name": "error500/cornerstone-child-theme",
+    "description": "Cornerstone child tehme : a foundation 5 theme for wordpress using cornerstone parent theme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "error500",
+            "email": "error500@free.fr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.3.0",
+        "error500/cornerstone": "dev-master"
+    },
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "error500/cornerstone",
+        "type": "package",
+        "version": "dev-master",
+        "dist": {
+          "type": "git",
+          "url": "https://github.com/error500/cornerstone.git"
+        }
+      }
+    }
+  ]
+}
