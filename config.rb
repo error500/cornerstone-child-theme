@@ -1,12 +1,13 @@
 # Require any additional compass plugins here.
-add_import_path "../error500-cornerstone/libs/foundation/scss"
+#add_import_path "../cornerstone/libs/foundation/scss"
 
 # Set this to the root of your project when deployed:
 http_path = "/"
-css_dir = "../error500-cornerstone/css"
+css_dir = "../cornerstone/css"
 sass_dir = "scss"
 images_dir = "images"
 javascripts_dir = "js"
+add_import_path "../cornerstone/libs"
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed

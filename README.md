@@ -4,8 +4,16 @@
 
 Clone the git repo `https://github.com/error500/cornerstone-child-theme.git` 
 
+Run bower install in cornerstone parent theme
+
+`cd ..
+`cd cornerstone`
+`bower install`
+
 Start compass watch
 
+`cd ..
+`cd cornerstone-child-theme`
 `compass watch`
 
 ## Author
