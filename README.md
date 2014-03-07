@@ -6,16 +6,26 @@ Clone the git repo `https://github.com/error500/cornerstone-child-theme.git`
 
 Run bower install in cornerstone parent theme
 
-`cd ..
-`cd cornerstone`
-`bower install`
+	cd ..
+	cd cornerstone
+	bower install
 
 Start compass watch
 
-`cd ..
-`cd cornerstone-child-theme`
-`compass watch`
+	cd ..
+	cd cornerstone-child-theme
+	compass watch
 
+Customize foundation for your theme in
+
+	scss/_settings.scss
+	
+Implement your local (s)css rules in 
+
+	scss/app.scss  
+
+	
+	
 ## Author
 
 **Stephen Mullen**
