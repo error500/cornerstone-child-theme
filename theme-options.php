@@ -19,7 +19,8 @@ add_action( 'admin_init', 'cor_register_settings' );
 //building the minimal option values
 $cor_options = array(
 	'copyright' => '&copy; ' . date('Y') . get_bloginfo('name'),
-	'logo' => 'yes'
+	'logo' => 'yes',
+	'seeAuthor' => 'no'
 );
 
 //Setting the minimal option values
@@ -37,8 +38,19 @@ $cor_logo = array(
 		'label' => 'Mask logo'
 	),
 );
+$cor_seeAuthor = array(
+	'yes' => array(
+		'value' => 'yes',
+		'label' => 'Display seeAuthor'
+	),
+	'no' => array(
+		'value' => 'no',
+		'label' => 'Mask seeAuthor'
+	),
+);
 
 
+// add menu & page to admin backoffice
 function cor_theme_options() {
 	add_theme_page( 'Options', 'Options', 	'edit_theme_options', 'cor_theme_options', 	'cor_theme_options_page' );
 }
@@ -46,7 +58,7 @@ add_action( 'admin_menu', 'cor_theme_options' );
 
 
 
-// Creating the admin form 
+// Create the admin option form 
 function cor_theme_options_page() {
 	// On inclut nos tableaux globaux
 	global $cor_options, $cor_logo;

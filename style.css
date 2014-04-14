@@ -2,9 +2,11 @@
 Theme Name: error500-cornerstone-child-theme
 Description: Child theme for the error500-Cornerstone starter theme
 Author: Fab
-Author URI: http: //www.thewirelessguy.co.uk
+Author URI: 
 Template: cornerstone
 Version: 1.0
 */
+
+/**Attention file not loaded */
 
 @import url(../cornerstone/style.css);

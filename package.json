@@ -1,0 +1,27 @@
+{
+  "name": "cornerstone-child-theme",
+  "version": "0.0.0",
+  "description": "Clone the git repo `https://github.com/error500/cornerstone-child-theme.git`",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/error500/cornerstone-child-theme.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/error500/cornerstone-child-theme/issues"
+  },
+  "homepage": "https://github.com/error500/cornerstone-child-theme",
+  "devDependencies": {
+    "gulp": "~3.6.0",
+    "gulp-compass": "~1.1.8",
+    "gulp-livereload": "~1.2.0",
+    "gulp-minify-css": "~0.3.1",
+    "gulp-filter": "~0.4.0",
+    "gulp-imagemin": "~0.2.0"
+  }
+}
