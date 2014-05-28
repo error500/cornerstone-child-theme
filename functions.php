@@ -30,7 +30,8 @@ if ( ! function_exists( 'load_cornerstone_child_scripts' ) ) {
 			array('foundation_js'),
 			'1.0',
 			true
-	);
+		);
+	}
 }
 
 
