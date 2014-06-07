@@ -2,7 +2,6 @@ var gulp = require ('gulp'),
 	/*livereload = require('gulp-livereload'),*/
 	compass = require ('gulp-compass'),
 	gulpFilter = require('gulp-filter'),
-	minifyCss = require('gulp-minify-css'),
 	imagemin = require('gulp-imagemin');
 
 var jsFilter = gulpFilter('js/*.js');
@@ -26,10 +25,6 @@ gulp.task('imagemin', function () {
 });
 
 gulp.task ('default', ['compass'],function () {
-	// Minifyed by compass : gulp not usefull
-	/*return gulp.src('./css/app.css')
-		.pipe(minifyCss())
-		.pipe(gulp.dest('./css-min/'));*/
 	
 })
 
