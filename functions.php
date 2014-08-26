@@ -38,4 +38,6 @@ if ( ! function_exists( 'load_cornerstone_child_scripts' ) ) {
 add_action( 'wp_enqueue_scripts', 'load_cornerstone_child_css', 50 );
 add_action('wp_enqueue_scripts', 'load_cornerstone_child_scripts',50);
 
+require_once ( get_stylesheet_directory() . '/theme-options.php' );
+
 ?>

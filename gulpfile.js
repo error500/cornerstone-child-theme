@@ -19,10 +19,11 @@ gulp.task ('compass', function(){
 
 
 gulp.task('imagemin', function () {
-    gulp.src('img-resource/*.jpg')
+    gulp.src(['img-resource/*.jpg','img-resource/*.png'])
         .pipe(imagemin())
-        .pipe(gulp.dest('img-min'));
+        .pipe(gulp.dest('img'));
 });
+
 
 gulp.task ('default', ['compass'],function () {
 	
@@ -45,3 +46,6 @@ gulp.task('watch', function() {
 	);*/
 
 })
+
+
+
