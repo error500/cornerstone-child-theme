@@ -20,7 +20,7 @@
   //@import "foundation/scss/foundation/components/keystrokes";
   @import "foundation/scss/foundation/components/labels";
   @import "foundation/scss/foundation/components/magellan";
-  @import "foundation/scss/foundation/components/orbit";
+  //@import "foundation/scss/foundation/components/orbit";
   @import "foundation/scss/foundation/components/pagination";
   @import "foundation/scss/foundation/components/panels";
   @import "foundation/scss/foundation/components/pricing-tables";
@@ -40,9 +40,9 @@
   //@import "foundation/scss/foundation/components/offcanvas";
   @import "foundation/scss/foundation/components/visibility";
 
-
-
-@import "owl.carousel/src/scss/owl.lazyload.scss";
+@import "owl.carousel/src/scss/owl.carousel.scss";
+@import "owl.carousel/src/scss/owl.theme.default.scss"; 
+//@import "owl.carousel/src/scss/owl.lazyload.scss";
 
 .yourRules-in-scss {
 
