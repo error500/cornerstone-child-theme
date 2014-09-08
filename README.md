@@ -24,14 +24,33 @@ Implement your local (s)css rules in
 
 	scss/app.scss  
 
-Workin with gulp
-You should install gulp and som modules with
+
+Gulp install command : 
 	npm install gulp
 	npm install --save-dev gulp-imagemin
 	npm install --save-dev gulp-compass
 	npm install --save-dev gulp-filter
+	npm install --save-dev gulp-uglify		
+	npm install --save-dev gulp-htmlmin			
 
-So that your images should be located in img-resource and the gulp imagemin action will target to img folder
+Updating with gulp
+	npm update
+
+
+
+Gulp commands :
+
+Needs images ? use to save them to img-resource and run
+	gulp imagemin 
+	=> they will be minified and reachable in img/
+
+Needs javascript ? write it in 
+	js/child.js
+	(working on minifier also)
+	gulp uglify
+
+
+
 
 
 	
