@@ -10,6 +10,11 @@ Run bower install in cornerstone parent theme
 	cd cornerstone
 	bower install
 
+Copy cornerstone/libs/foundation/scss/foundation/_settings to your child-themme/scss folder and **remove import line** 'important!'
+
+This allows you to override the foundation settings
+
+
 Start compass watch
 
 	cd ..

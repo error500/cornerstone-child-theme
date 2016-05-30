@@ -48,9 +48,9 @@ gulp.task('minify', function() {
 
 gulp.task ('default', ['compass'],function () {
 	// Minifyed by compass : gulp not usefull
-	/*return gulp.src('./css/app.css')
+	return gulp.src('./css/app.css')
 		.pipe(minifyCss())
-		.pipe(gulp.dest('./css-min/'));*/
+		.pipe(gulp.dest('./css-min/'));
 	
 })
 
